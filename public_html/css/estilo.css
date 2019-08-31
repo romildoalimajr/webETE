@@ -1,0 +1,216 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 30/08/2019, 20:04:52
+    Author     : Láb Informática
+*/
+nav.navbar-light{
+    padding: 10px 0px;
+    background-color: rgba(75,14,29,.8);
+    border: none;
+}
+@media (min-width: 768px){
+    .navbar-left{
+        float:left !important;
+    }
+    .navbar-right{
+        float: right !important;
+        margin-left: 30rem;
+    }
+    .navbar-right ~ .navbar-right{
+        margin-left:0;
+    }
+}
+.navbar-nav>li>a{
+    color:white;
+}
+.navbar-nav>li>a:hover{
+    color:#32cd32;
+    text-decoration: none;
+}
+nav {
+    padding: 15px 0px;
+    background-color: rgba(75,14,29,.6);
+    border: none;
+}
+.img-logo{
+    height: 40px;
+    display: block;
+    background: url('../imagens/spotify.svg') no-repeat;
+    background-size: contain;
+    color: transparent;
+}
+li{ 
+    padding: 5px 12px;
+}
+#barra{
+    padding: 0 9px 9px 9px;
+}
+body{
+    background-color: #F037A5;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(-60%, #F037A5),
+        color-stop(140%, #FAE62D));
+    font-weight: 400;
+    background:url('https://www.scdn.com/i/home/hero-burst-mobile.svg'),
+        url('http://www.scdn.co/i/home/hero-burst.svg'),
+    linear-gradient(#F037A5 -60%, #FAE62D 140%);
+    background-size: cover;
+    background-attachment: fixed;
+    
+    font-family: Circular, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #222326;
+    background-color:#FFF;
+}
+.btn{
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    /*touch-action: manipulation;*/
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 16px;
+    line-height: 1.5;
+    border-radius: 4px;
+    padding: 7px 12px 5px;
+    -webkit-user-select:none;
+    -moz-user-select: none;
+    -ms-user-select:none;
+    /*user-select: none;*/
+}
+.btn-green{
+    color:#FFF;
+    background-color: #1ED760;
+    margin-left: 15rem;
+    padding: 10px;
+}
+.btn-green:hover{
+    color:#FFF;
+    background-color: #4bdf80;
+}
+.btn-green:focus{
+    color:#FFF;
+    background-color: #18ac4d;
+    -webkit-box-shadow: 0 0 0 2px rgba(0,0,0,0.1) inset;
+    box-shadow: 0 0 0 2px rgba(0,0,0,0.1) inset;
+}
+.btn-simplified{
+    border-radius: 30px;
+    padding: 10px 60px 10px 60px;
+}
+div#content{
+    margin: 25rem 40rem 0 40rem;
+    min-height: 100%;
+    align-items: center;
+    width: 100%;
+    webkit-transform: translatyeY(24px);
+    -ms-transform: translateY(24px);
+    transform: translateY(24px);
+    color: #FFF;
+    min-height: 80vh;
+}
+.row-simplified{
+    margin: 0 auto;
+    z-index: 1;
+    position: relative;
+}
+html{
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6{
+    font-family: inherit;
+    font-weight: 900;
+    line-height: 1.1;
+    color: inherit;
+}
+h4{
+    font-size: 18px;
+    margin: .5em 0 1em;
+    font-weight: 400;
+    color: #F8F8F8;
+    text-align: center;
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+}
+h1{
+    font-family: inherit;
+    line-height: 1.1;
+    margin-top: 24px;
+    margin-bottom: 12px;
+    font-size: 60px;
+    font-weight: 900;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+    color: #F8F8F8;
+    text-align: center;
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+}
